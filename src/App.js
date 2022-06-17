@@ -1,4 +1,5 @@
 import Expenses from './components/Expenses';
+import './App.css';
 
 function App() {
   const expenses = [
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h2 className='text-center'>Let's get started!</h2>
+      <h1 className='text-center color-white'>Let's get started!</h1>
       <Expenses items={expenses} />
     </div>
   );
