@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 className='text-center color-white'>Let's get started!</h1>
+      <h1 className='text-center color-white'>Your Expences Tracker</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
